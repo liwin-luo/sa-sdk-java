@@ -1,7 +1,5 @@
 package com.sndo.data.analytics.javasdk;
 
-import com.sndo.data.analytics.javasdk.SndoDataAnalytics;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
@@ -11,7 +9,7 @@ public class HelloSndoDataAnalytics {
 
   public static void main(String[] args) throws Exception {
     // Sensors Analytics 采集事件的 URL
-    final String SA_SERVER_URL = "http://10.10.11.209:8006/sa?project=default&token=bbb";
+    final String SA_SERVER_URL = "http://ttp://192.168.1.155:8080/p?servicen=default&project=default&token=bbb";
 
     // DebugConsumer
     final SndoDataAnalytics sa = new SndoDataAnalytics(new SndoDataAnalytics.DebugConsumer
