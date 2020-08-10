@@ -1,4 +1,4 @@
-package org.sndo.data.sdk.java.util;
+package com.sndo.data.analytics.javasdk.util;
 
 //Copyright 2003-2010 Christian d'Heureuse, Inventec Informatik AG, Zurich, Switzerland
 //www.source-code.biz, www.inventec.ch/chdh

@@ -1,4 +1,4 @@
-package org.sndo.data.sdk.java.exceptions;
+package com.sndo.data.analytics.javasdk.exceptions;
 
 /**
  * 非法的DistinctID
