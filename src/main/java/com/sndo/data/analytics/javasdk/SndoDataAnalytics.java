@@ -1034,7 +1034,7 @@ public class SndoDataAnalytics {
   }
 
   /**
-   * 停止SensorsDataAPI所有线程，API停止前会清空所有本地数据
+   * 停止SndodataDataAPI所有线程，API停止前会清空所有本地数据
    */
   public void shutdown() {
     this.consumer.close();

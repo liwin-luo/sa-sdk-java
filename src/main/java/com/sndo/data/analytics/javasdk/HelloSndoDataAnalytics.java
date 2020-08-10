@@ -8,7 +8,7 @@ import java.util.Map;
 public class HelloSndoDataAnalytics {
 
   public static void main(String[] args) throws Exception {
-    // Sensors Analytics 采集事件的 URL
+    // Sndodata Analytics 采集事件的 URL
     final String SA_SERVER_URL = "http://ttp://192.168.1.155:8080/p?servicen=default&project=default&token=bbb";
 
     // DebugConsumer
@@ -22,7 +22,7 @@ public class HelloSndoDataAnalytics {
 //    final SndoDataAnalytics sa = new SndoDataAnalytics(new SndoDataAnalytics.LoggingConsumer("/data/file.log"));
 
     // 在这个 Demo 中，我们以一个典型的电商产品为例，描述一个用户从匿名访问网站，到下单购买商品，再到申请售后服务，
-    // 这样一个整个环节，使用 Sensors Analytics（以下简称 SA）的产品，应该如何记录日志。
+    // 这样一个整个环节，使用 Sndodata Analytics（以下简称 SA）的产品，应该如何记录日志。
 
     // 特别需要注意的是，这个 Demo 只是描述 SA 的数据记录能力，并不是说使用者要完全照搬这些 Event 和 Property
     // 的设计，使用者还是需要结合自己产品的实际需要，来做相应的设计和规划
