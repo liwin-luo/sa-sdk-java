@@ -12,7 +12,7 @@ Add the following lines to your project's pom.xml:
     <dependency>
       <groupId>com.sndo.data</groupId>
       <artifactId>SndoDataAnalyticsSDK</artifactId>
-      <version>1.0</version>
+      <version>xxx</version>
     </dependency>
   </dependencies>
 ```
