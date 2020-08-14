@@ -9,11 +9,11 @@ Add the following lines to your project's pom.xml:
 ```
   <dependencies>
     // ...
-    <dependency>
-      <groupId>com.sndo.data</groupId>
-      <artifactId>SndoDataAnalyticsSDK</artifactId>
-      <version>xxx</version>
-    </dependency>
+  <dependency>
+    <groupId>com.sndo.data</groupId>
+    <artifactId>sndo-data-sdk-java</artifactId>
+    <version>0.1.0</version>
+  </dependency>
   </dependencies>
 ```
 
