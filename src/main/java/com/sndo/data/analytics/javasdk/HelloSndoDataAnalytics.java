@@ -9,7 +9,7 @@ public class HelloSndoDataAnalytics {
 
   public static void main(String[] args) throws Exception {
     // Sndodata Analytics 采集事件的 URL
-    final String SA_SERVER_URL = "http://ttp://192.168.1.155:8080/p?servicen=default&project=default&token=bbb";
+    final String SA_SERVER_URL = "http://192.168.1.155:8080/p?servicen=default&project=default&token=bbb";
 
     // DebugConsumer
     final SndoDataAnalytics sa = new SndoDataAnalytics(new SndoDataAnalytics.DebugConsumer
